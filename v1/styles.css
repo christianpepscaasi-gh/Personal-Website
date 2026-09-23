@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page_header {
+    color: whitesmoke;
+    padding: 24px 20px;
+    text-align: center;
+}
+
+#website_version {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.hero_container_with_introduction_and_role {
+    display: flex;
+    background-color: beige;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#hero_pic {
+    height: 200px;
+    border-radius: 10%;
+}
+
+#hero_container_introduction {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+#hero_container_role {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.hobbies {
+    background-color: beige;
+    border-radius: 5%;
+    width: 300px;
+    display: flex;
+    font-size: 10px;
+}
