@@ -1,29 +1,26 @@
 body {
-    background-color: black;
+    background-color: #0f172a;
+    color: #e5e7eb;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#page_header {
-    color: whitesmoke;
+#page_header, #website_version {
+    color: #f8fafc;
     padding: 24px 20px;
-    text-align: center;
-}
-
-#website_version {
-    color: whitesmoke;
     text-align: center;
 }
 
 .hero_container_with_introduction_and_role {
     display: flex;
-    background-color: beige;
-    border-radius: 10%;
     text-align: center;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
 }
 
 #hero_pic {
     height: 200px;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 #hero_container_introduction {
@@ -37,9 +34,17 @@ body {
 }
 
 .hobbies {
-    background-color: beige;
-    border-radius: 5%;
-    width: 300px;
-    display: flex;
+    background-color: #1e293b;
     font-size: 10px;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 24px 0;
+    padding: 20px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    display: flex;
+}
+
+.accent {
+    color: #fbbf24;
 }
