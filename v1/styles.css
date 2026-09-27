@@ -33,9 +33,9 @@ body {
     padding-top: 50px;
 }
 
-.hobbies {
+.hobbies{
     background-color: #1e293b;
-    font-size: 10px;
+    font-size: 15px;
     justify-content: space-between;
     gap: 50px;
     margin: 24px 0;
@@ -47,4 +47,33 @@ body {
 
 .accent {
     color: #fbbf24;
+}
+
+#moto {
+    font-size: 20px;
+}
+
+.moto-class{
+    background-color: #1e293b;
+    font-size: 15px;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    display: grid;
+}
+
+.links {
+    background-color: #1e293b;
+    font-size: 15px;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 1px solid #334155;
+    border-radius: 10px;
+
+    text-align: center;
 }
