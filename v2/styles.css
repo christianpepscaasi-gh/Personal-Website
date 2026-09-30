@@ -4,6 +4,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+nav {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 .page-header {
     color: #f8fafc;
     text-align: center;
